@@ -1,34 +1,49 @@
-
-.figure-caption{
-    text-align:start;
+.figure-caption {
+    text-align: start;
 }
 
-.ipt{
+.ipt {
     display: inline-flex;
 }
-.Container_2{
+
+.Container_2 {
     padding: 2px;
     width: 100%;
 }
-.figure-img{
+
+.figure-img {
     width: 200px;
     margin-left: 50px;
 }
 
-body{
-    background-color: #ddd9d2;   
+body {
+    background-color: #ddd9d2;
 }
 
-h1{
+h1 {
     border-top: 2px solid;
-    font-family:Nexa Light;
+    font-family: Nexa Light;
     src: url('font/Nexa Light.otf');
     margin-left: 30px;
     padding: 20px 0 0 0;
-    
+    color: #A1A0A6;
+    text-align: center;
 }
-h2{
+
+h2 {
     margin-left: 30px;
     border-top: 2px solid;
-    
+    color: #A1A0A6;
+    font-style: italic;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    align-items: flex-end;
+    margin: 10px;
+    width: 30px;
 }
