@@ -5,6 +5,10 @@
 body {
     background-color: #ddd9d2;
     font-family: Nexa Light;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
 }
 
 .top-menu {
@@ -17,6 +21,7 @@ body {
     left: 0;
     z-index: 999;
     -webkit-font-smoothing: antialiased;
+    
 }
 
 ul {
@@ -28,6 +33,7 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
     display: inline-block;
+    color: blanchedalmond;
 }
 
 .menu ul {
@@ -39,11 +45,12 @@ ul {
 li{
     display: inline;
     padding: 30px;
-    color: #714441;
+    
     
 }
 nav{
     border: solid #714441 1px;
+    background-color: #714441;
 }
 
 .slogan{
@@ -70,9 +77,42 @@ nav{
     right: 10px;
 }
 
+.instagram{
+    width: 20px;
+}
+
 img{
-    width: 10px;
+    width: 15px;
     padding: 5px;
     position: relative;
     right: 10px;
+    
+}
+
+P{
+    text-justify:auto;
+    line-height: 1.875em;
+    text-align: left;
+    font-size: 11px;
+}
+
+.section1{
+    display: block;
+    background-image: url("/img/fundoInicial.jpg");
+
+}
+
+.sobre{
+    display: flex;
+    flex-basis: 2px;
+    justify-content: center;
+    flex-shrink: 1;
+    
+}
+.sobre div{
+    border: solid 1px black;
+    margin: 2px;
+    flex-basis: 400px;
+    padding: 5px;
+
 }
