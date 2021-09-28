@@ -17,27 +17,34 @@ a{
 }
 
 ul {
-    display: block;
+    display: flex;
     list-style: none;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-    display: inline-block;
+    border: solid 1px #714441;
+    font-size: 14px;
+    margin: 10%;
+    flex-basis: 100px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(0.2, 0.2, 0.2, 0.2);
+    height: 50px;
     color: blanchedalmond;
+    
 }
 
 li{
-    display: inline;
-    padding: 5px; 
+    padding: 5px 5px 5px 20px;
     color: inherit;
+    display: flex;
+    align-items:center;
+
        
 }
 
 nav{
+    position: fixed;
     border: solid #714441 1px;
     background-color: #714441;
+    padding: 2%;
+    
 }
 
 img{
@@ -58,18 +65,22 @@ P{
 }
 
 input{
-    border: solid 1px;
-    border-radius: 10%;
+    
+    border:none;
     margin: 1px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     background-color: #ddd9d2;
+
+
 }
 
 
 input:hover{
     background-color:white ;
-    color: blanchedalmond;
-    
+    color: ffffff;
+    transition: all 0.3s;
+
+
 }
 
 
@@ -137,20 +148,44 @@ input:hover{
 
 .sobre{
     display: flex;
+
     flex-basis: 2px;
     justify-content: center;
     flex-shrink: 1;
     
 }
+.proposito{
+    border: solid 1px #714441;
+    font-size: 48px;
+    margin: 10% 2% 2% 2%;
+    flex-basis: 400px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    height: 300px;
+}
+
+.project{
+    border: solid 1px #714441;
+    font-size: 48px;
+    margin: 10%;
+    flex-basis: 400px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    height: 300px;
+}
+
+.sobre p{
+    font-size: 18px;
+}
 
 .sobre div{
-    border: solid 1px black;
+    border: solid 1px #714441;
+    font-size: 48px;
     margin: 2px;
     flex-basis: 400px;
     padding: 5px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    transition: 1.5;
-    height: 150px;
+    height: 300px;
 }
 
 .sobre div:hover{
