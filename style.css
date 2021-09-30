@@ -28,33 +28,36 @@ ul {
     height: 50px;
     color: blanchedalmond;
     
+    
 }
+
 
 li{
     padding: 5px 5px 5px 20px;
     color: inherit;
     display: flex;
     align-items:center;
-
-       
+    display: flex;
+    flex-basis: inherit;
+    text-align: center;       
 }
 
 nav{
-    position: fixed;
     border: solid #714441 1px;
     background-color: #714441;
     padding: 2%;
-    
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 97%;
 }
 
 img{
     width: 15px;
     padding: 5px;
     position: relative;
-    right: 10px;
-    
-}
-
+    right: 40px;
+}    
 
 P{
     text-justify:auto;
@@ -178,6 +181,7 @@ input:hover{
     font-size: 18px;
 }
 
+
 .sobre div{
     border: solid 1px #714441;
     font-size: 48px;
@@ -189,13 +193,24 @@ input:hover{
 }
 
 .sobre div:hover{
-    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 4px 6px rgba(0, 0, 0, 0.2);
     background-color:#714441 ;
     color: blanchedalmond;
-    padding:8px;
+    padding:15px;
     transition: all 0.3s;
     
 
 }
 
+[data-anime]{
+    padding: 2%;
+    width: 97%;
+    transition: 0.7s;
+
+}
+.animate{
+    padding: 0%;
+    width: 100%;
+    transition: 0.7s;
+}
 
