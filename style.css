@@ -24,7 +24,6 @@ ul {
     margin: 10%;
     flex-basis: 100px;
     padding: 5px;
-    box-shadow: 2px 2px 2px 2px rgba(0.2, 0.2, 0.2, 0.2);
     height: 50px;
     color: blanchedalmond;
     
@@ -86,11 +85,6 @@ input:hover{
 
 }
 
-
-
-/*Classes*/
-
-
 .top-menu {
     width: 100%;
     border-bottom: 1px solid;
@@ -151,10 +145,8 @@ input:hover{
 
 .sobre{
     display: flex;
-
     flex-basis: 2px;
-    justify-content: center;
-    flex-shrink: 1;
+    justify-content: space-around;
     
 }
 .proposito{
@@ -175,6 +167,7 @@ input:hover{
     padding: 5px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     height: 300px;
+    
 }
 
 .sobre p{
@@ -186,31 +179,31 @@ input:hover{
     border: solid 1px #714441;
     font-size: 48px;
     margin: 2px;
-    flex-basis: 400px;
+    flex-basis: 500px;
     padding: 5px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     height: 300px;
 }
 
 .sobre div:hover{
-    box-shadow: 4px 4px 4px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 18px 29px 0 rgb(73 73 73 / 50%);
     background-color:#714441 ;
     color: blanchedalmond;
-    padding:15px;
+    border-image: linear-gradient(#714441, blanchedalmond) 1 round;
+    border-image-source: linear-gradient(blanchedalmond, #714441);
     transition: all 0.3s;
     
-
 }
 
 [data-anime]{
     padding: 2%;
     width: 97%;
-    transition: 0.7s;
+    transition: 0.4s;
 
 }
 .animate{
     padding: 0%;
     width: 100%;
-    transition: 0.7s;
+    transition: 0.4s;
 }
 
